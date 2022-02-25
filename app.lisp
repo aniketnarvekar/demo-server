@@ -4,4 +4,5 @@
 
 (hunchentoot:define-easy-handler (greeting :uri "/") ()
   (setf (hunchentoot:content-type*) "text/plain")
+  (print "greeting")
   "hello World!!!")
