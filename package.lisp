@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:demo-server
-  (:use #:cl #:hunchentoot))
+  (:use #:cl #:clack))
