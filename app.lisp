@@ -3,5 +3,5 @@
 (ql:quickload :demo-server)
 
 (hunchentoot:define-easy-handler (greeting :uri "/") ()
-  (setf (hunchentoot:content-type* "text/plain"))
+  (setf (hunchentoot:content-type*) "text/plain")
   "hello World!!!")
